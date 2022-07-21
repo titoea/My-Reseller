@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">MyReseller</string>
+
+    <string name="content_description">image</string>
+    <string name="title_login">LOGIN</string>
+    <string name="et_hint_email_id">Email ID</string>
+    <string name="et_hint_password">Password</string>
+    <string name="lbl_forgot_password">Forgot Password?</string>
+    <string name="btn_lbl_login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account? </string>
+    <string name="register"><u>Register</u></string>
+
+    <string name="create_an_account">CREATE AN ACCOUNT</string>
+
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_first_name">First name</string>
+    <string name="et_hint_confirm_password">Confirm password</string>
+
+    <string name="i_agree_to_the_terms_and_condition">I Agree to The <u> Terms &amp; Condition </u></string>
+    <string name="btn_lbl_register"> Register</string>
+
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login"><u>Login</u></string>
+
+    <string name="err_msg_enter_first_name">Please enter first name.</string>
+    <string name="err_msg_enter_last_name">Please enter last name.</string>
+    <string name="err_msg_enter_email">Please enter email.</string>
+    <string name="err_msg_enter_password">Please enter first password.</string>
+    <string name="err_msg_enter_confirm_password">Please enter confirm password.</string>
+    <string name="err_msg_password_and_confirm_password_mismatch">Password and confirm password mismatch.</string>
+    <string name="err_msg_agree_terms_and_condition">Please agree terms and condition.</string>
+    <string name="registry_successful">Account created!</string>
+
+    <string name="please_wait">Please Wait&#8230;</string>
+
+    <string name="title_forgot_password">FORGOT PASSWORD</string>
+    <string name="forgot_password_title_description">Enter your username and e-mail address we\'ll send you an e-mail to reset your password</string>
+    <string name="btn_lbl_submit">Submit</string>
+
+    <string name="email_sent_success">\"Email sent succesfully to reset your password! \"</string>
+    <string name="register_success">You are registered successfully</string>
+
+    <string name="title_complete_profile">PROFILE</string>
+    <string name="et_hint_mobile_number">Mobile number</string>
+    <string name="rb_lbl_male">MALE</string>
+    <string name="rb_lbl_female">FEMALE</string>
+    <string name="btn_lbl_save">Save</string>
+
+    <string name="read_storage_permission_denied">Oops, you just denied the permission for storage. You can also allow it from settings.</string>
+
+    <string name="image_selection_failed">Image selection Failed!</string>
+    <string name="err_msg_enter_mobile_number">Please enter mobile number.</string>
+
+    <string name="msg_profile_update_success">Your profile was updated successfully.</string>
+    <!--<string name="title_activity_dashboard">DashboardActivity</string> -->
+
+    <string name="title_orders">Orders</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_products">Products</string>
+
+    <string name="please_click_back_again_to_exit">Please click back again to exit.</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_my_products">My Products</string>
+    <string name="rb_lbl_buyer">BUY</string>
+    <string name="rb_lbl_seller">SELL</string>
+    <string name="description_buyer_seller">I want to</string>
+    <string name="action_upload">Upload</string>
+    <string name="upload_an_item">UPLOAD AN ITEM</string>
+    <string name="hint_item_name">Item name</string>
+    <string name="hint_item_price">Item price</string>
+    <string name="et_hint_item_description">Item description</string>
+    <string name="item_description">item image</string>
+    <string name="btn_lbl_upload">UPLOAD</string>
+    <string name="err_msg_enter_item_name">Please enter item name</string>
+    <string name="err_msg_enter_item_description">Please enter item description</string>
+    <string name="err_msg_enter_item_price">Please enter item price</string>
+    <string name="upload_successful">Upload successful</string>
+    <string name="upload_success">Upload successful!</string>
+
+    <string-array name="category_array">
+        <item>Tops</item>
+        <item>Bottoms</item>
+        <item>Dresses</item>
+        <item>Shoes</item>
+        <item>Accessories</item>
+        <item>Cover-ups</item>
+    </string-array>
+    <string name="title_activity_dashboard_buyer">DashboardBuyerActivity</string>
+    <string name="title_buyer_orders">Orders</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_products_fragment">This is the all products fragment</string>
+    <string name="tops_fragment">This is the tops fragment</string>
+    <string name="bottoms_fragment">This is the bottoms fragment</string>
+    <string name="dresses_fragment">This is the dresses fragment</string>
+    <string name="product_like_button_desc">This is the like button</string>
+    <string name="addToLikes_success">Item added to Likes!</string>
+    <string name="action_view_likes">Likes</string>
+    <string name="et_hint_item_size">Item size (UK)</string>
+    <string name="err_msg_enter_item_size">Please enter the item size</string>
+    <string name="btn_lbl_add_to_cart">ADD TO CART</string>
+    <string name="addToCart_success">added to cart!</string>
+    <string name="already_added_to_cart">item already in cart</string>
+    <string name="btn_lbl_remove_from_cart">remove</string>
+    <string name="total_amount">Subtotal Amount: </string>
+    <string name="btn_lbl_checkout">CHECKOUT</string>
+    <string name="btn_lbl_save_for_later">save for later</string>
+    <string name="Likes">LIKES</string>
+    <string name="Cart">CART</string>
+    <string name="et_hint_item_quantity">Item quantity</string>
+    <string name="et_hint_item_color">Item color</string>
+    <string name="err_msg_enter_item_quantity">Please enter the item quantity</string>
+    <string name="err_msg_enter_item_color">Please enter the item color</string>
+
+</resources>

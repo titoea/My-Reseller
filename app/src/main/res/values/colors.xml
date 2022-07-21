@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_blue">#1E3148</color>
+    <color name="light_blue">#6FC6BF</color>
+    <color name="medium_brown">#D79B5B</color>
+    <color name = "light_brown">#F0D9C1</color>
+    <color name ="dark_brown">#905b23</color>
+    <color name="light_pink">#EEBFA8</color>
+    <color name="off_white">#F5F6F0</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Text color-->
+    <color name="colorPrimaryText">@color/black</color>
+    <!--<color name="colorPrimaryTextVariant"></color> -->
+    <color name="colorSecondaryText">#989898</color>
+
+    <!--SnackBar color-->
+    <color name="colorSnackBarSuccess">#43B14B</color>
+    <color name="colorSnackBarError">#F72400</color>
+
+    <color name="colorLightGrey">#F1F1F1</color>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/orders_card_view"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="12dp"
+    app:cardBackgroundColor="@color/light_brown"
+    app:cardElevation="3dp"
+    app:contentPadding="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/orders_relative_layout"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/order_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="36dp"/>
+
+        <com.example.myreseller.utils.MRTextViewRegular
+            android:id="@+id/order_buyer_name"
+            android:layout_width="236dp"
+            android:layout_height="39dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/order_image"
+            android:layout_marginStart="16dp"
+            android:textSize="20sp"/>
+
+        <com.example.myreseller.utils.MRTextViewRegular
+            android:id="@+id/order_item_name"
+            android:layout_width="236dp"
+            android:layout_height="39dp"
+            app:layout_constraintTop_toBottomOf="@id/order_buyer_name"
+            app:layout_constraintLeft_toRightOf="@id/order_image"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"/>
+
+        <com.example.myreseller.utils.MRTextViewRegular
+            android:id="@+id/order_item_price"
+            android:layout_width="236dp"
+            android:layout_height="39dp"
+            app:layout_constraintTop_toBottomOf="@id/order_item_name"
+            app:layout_constraintLeft_toRightOf="@id/order_image"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"/>
+
+        <com.example.myreseller.utils.MRTextViewRegular
+            android:id="@+id/order_item_quantity"
+            android:layout_width="236dp"
+            android:layout_height="39dp"
+            app:layout_constraintTop_toBottomOf="@id/order_item_price"
+            app:layout_constraintLeft_toRightOf="@id/order_image"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
